@@ -1,0 +1,197 @@
+/* This file is for your main application css. */
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+div{
+    font-family: "Roboto", sans-serif;    
+}
+
+body{
+    background-color: rgb(160, 192, 223);
+}
+
+div.container4 {
+    position: relative;
+    z-index: 1;
+    background: rgb(102, 165, 228);
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}    
+
+.firstpage_input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+ 
+.secondpage_input{
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    border: 0;
+    width:91%;
+    margin: 10px;
+
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}  
+
+h2{
+    font-family: "Roboto", sans-serif;
+    color: rgb(27, 25, 25);
+}
+
+button.firstpage {
+        font-family: "Roboto", sans-serif;
+        text-transform: uppercase;
+        outline: 0;
+        background: #4CAF50;
+        width: 100%;
+        border: 0;
+        padding: 15px;
+        color: #FFFFFF;
+        font-size: 14px;
+        -webkit-transition: all 0.3 ease;
+        transition: all 0.3 ease;
+        cursor: pointer;   
+}
+
+button.secondleft {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 40%;
+    border: 0;
+    margin-left: 10px;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;   
+}
+
+button.secondright{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 20%;
+    border: 0;
+    margin-left: 10px;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;   
+}
+
+
+.form button:hover,.form button:active,.form button:focus {
+    background: #43A047;
+}
+    /* position: relative ;
+    width: 30%;
+padding: 20px;
+    background: yellow; */
+
+ div.container4 p {
+    text-align: center;
+    
+    } 
+
+#content1 {
+	float: left;
+	width: 25%;
+	background-color: #DDD;
+}
+#content2 {
+	float: left;
+	width: 75%;
+	background-color: #CCC;
+}
+
+
+
+#search{
+    float: left;
+    height: 10%;
+    background-color: #FFFFFF;
+
+}
+
+#query{
+    position: relative;
+    float: left;
+    height: 300px;
+    width: 80%;
+    font-family: "Roboto", sans-serif;
+    overflow: scroll;
+    background-color: #FFFFFF;
+    text-align: left;
+    margin-right: 5px;
+    margin-left: 5px; 
+    margin-top: 5px;
+    padding: 10px;
+}
+
+#feed{
+    position: relative;
+    float: left;
+    height: 300px;
+    width: 90%;
+    font-family: "Roboto", sans-serif;
+    overflow: scroll;
+    background-color: #FFFFFF;
+    text-align: left;
+    margin-right: 5px;
+    margin-left: 5px; 
+    margin-top: 5px;
+    padding: 10px;
+}
+
+#container {width:90%; height:90%;
+    position: relative;
+    z-index: 1;
+    background: rgb(102, 165, 228);
+    float: center;
+    margin: 0 auto 100px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);}
+#colleft {width:33%;
+    position: relative;
+    z-index: 1;
+    background: #A0C0DF;
+    max-width: 280px;
+    margin: 10px;
+    padding: 30px;
+    
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+#collright {width:67%;  
+    position: relative;
+    z-index: 1;
+    background: #A0C0DF;
+    max-width: 700px;
+    margin: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);}
+    
